@@ -1,0 +1,42 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2026-11-07",
+  "deployer": "0x21652e04deaF28840d686fF0394444B04deD35e2",
+  "compiler": {
+    "version": "0.8.28+commit.7893614a",
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  },
+  "contracts": {
+    "MyNFT": {
+      "address": "0x5C919c5e8f236EC1913D76ec7A5c6092eA32B8b7",
+      "txHash": "0x54659716dafd81612183691f108b782f4ffc6249386ddb8183433d4727eb12f1",
+      "blockNumber": 12082786,
+      "constructorArgs": [],
+      "runtimeBytes": 6140
+    },
+    "NFTMarketplace": {
+      "address": "0x7097ebB3eB50A4b4a79346C059895C299f59a4C7",
+      "txHash": "0xd1aa2a7a9cbb007d9c4bfd938e0aad108edf38f45dd9f30cff09e33a84fdccbf",
+      "blockNumber": 12082787,
+      "constructorArgs": [
+        "0x5C919c5e8f236EC1913D76ec7A5c6092eA32B8b7",
+        250
+      ],
+      "runtimeBytes": 5175
+    }
+  },
+  "verification": {
+    "explorer": "https://sepolia.etherscan.io",
+    "method": "Standard-Json-Input",
+    "result": "Exact Match",
+    "inputs": {
+      "standardInput": "verify/standard-input.json",
+      "constructorArgs": "verify/constructor-args.txt"
+    }
+  }
+}

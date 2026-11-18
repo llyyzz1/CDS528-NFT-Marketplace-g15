@@ -1,0 +1,14 @@
+﻿Constructor arguments for NFTMarketplace
+========================================
+
+MyNFT has no constructor arguments.
+
+NFTMarketplace(address _nft, uint256 _feeBps) was deployed with:
+
+  _nft      = 0x5C919c5e8f236EC1913D76ec7A5c6092eA32B8b7   (MyNFT)
+  _feeBps   = 250                                            (2.5%)
+
+ABI-encoded constructor arguments (paste this into the Etherscan
+"Constructor Arguments" field when verifying manually):
+
+0000000000000000000000005c919c5e8f236ec1913d76ec7a5c6092ea32b8b700000000000000000000000000000000000000000000000000000000000000fa

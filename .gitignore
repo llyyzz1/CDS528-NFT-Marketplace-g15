@@ -1,0 +1,13 @@
+﻿node_modules
+.env
+cache
+artifacts
+coverage
+coverage.json
+_v1_original/
+verify-input.json
+flat_*.sol
+*.log
+.Rhistory
+.DS_Store
+
